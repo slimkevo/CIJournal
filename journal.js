@@ -1,6 +1,6 @@
 function addEntry(entryText) {
     if (entryText === '') {
-        return null; // Indicate that entry is empty
+        return null;
     }
     const entryElement = document.createElement('div');
     entryElement.classList.add('entry');
